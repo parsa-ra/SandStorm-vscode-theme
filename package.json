@@ -2,8 +2,8 @@
     "name": "theme-sandstorm",
     "displayName": "SandStorm Theme",
     "description": "SandStorm Theme",
-    "version": "0.3.0-beta",
-    "publisher": "parsa-rn",
+    "version": "0.3.0",
+    "publisher": "parano",
     "license": "MIT",
     "engines": {
         "vscode": "^1.60.0"
@@ -12,7 +12,7 @@
         "themes": [
             {
                 "id": "SandStorm Theme",
-                "label": "%themeLabel%",
+                "label": "SandStorm Theme",
                 "uiTheme": "vs",
                 "path": "./themes/sandstorm.json"
             }

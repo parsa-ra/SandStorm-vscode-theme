@@ -410,7 +410,7 @@
         "sideBar.background": "#9c8f6e",
         "sideBarTitle.foreground": "#2A1111",
         "sideBar.dropBackground": "##80734f",
-		"sideBarSectionHeader.background": "#99938a",
+		"sideBarSectionHeader.background": "#a89577",
 		"sideBarSectionHeader.foreground": "#361c16",
         "statusBar.foreground": "#2A1111",
         "statusBar.background": "#a39572",

@@ -1,12 +1,12 @@
 {
     "name": "theme-sandstorm",
-    "displayName": "%displayName%",
-    "description": "%description%",
+    "displayName": "SandStorm Theme",
+    "description": "SandStorm Theme",
     "version": "0.3.0-beta",
     "publisher": "parsa-rn",
     "license": "MIT",
     "engines": {
-        "vscode": "^1.65.0"
+        "vscode": "^1.60.0"
     },
     "contributes": {
         "themes": [
@@ -20,6 +20,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/microsoft/vscode.git"
+        "url": "https://github.com/parsa-ra/SandStorm-vscode-theme.git"
     }
 }

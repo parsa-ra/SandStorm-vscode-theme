@@ -1,0 +1,25 @@
+{
+    "name": "theme-sandstorm",
+    "displayName": "%displayName%",
+    "description": "%description%",
+    "version": "0.3.0-beta",
+    "publisher": "parsa-rn",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "id": "SandStorm Theme",
+                "label": "%themeLabel%",
+                "uiTheme": "vs",
+                "path": "./themes/sandstorm.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/microsoft/vscode.git"
+    }
+}

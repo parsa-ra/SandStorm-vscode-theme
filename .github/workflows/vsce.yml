@@ -31,10 +31,10 @@ jobs:
         run: npm install -g vsce
       
       - name: Package the extension
-        env: 
-          PAT: ${{ secrets.MS_ACCESS_TOKEN }}
         run: vsce package
         
       - name: Publish the extension
+        env: 
+          PAT: ${{ secrets.MS_ACCESS_TOKEN }}
         run: vsce publish --pat "$PAT"
 

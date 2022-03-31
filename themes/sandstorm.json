@@ -20,7 +20,7 @@
             "scope": "comment",
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#382424"
+                "foreground": "#695a57"
             }
         },
         {
@@ -342,9 +342,10 @@
 		"quickInputList.focusForeground": "#362e29",
 		"quickInputTitle.background": "#0000000f",
         "quickInputList.focusBackground": "#A2936B66",
+        "gitDecoration.ignoredResourceForeground": "#5d5d70",
         "list.activeSelectionIconForeground": null,
 		"list.filterMatchBorder": null,
-		"list.focusBackground": "#c4b99588",
+		"list.focusBackground": "#c2ad67aa",
 		"list.focusForeground": "#2A1111",
 		"list.hoverForeground": null,
 		"list.inactiveFocusBackground": null,
@@ -364,6 +365,7 @@
 		"notificationsInfoIcon.foreground": "#1a85ff",
 		"notificationsWarningIcon.foreground": "#e08802",
         "list.highlightForeground": "#ab840c",
+        "editorCodeLens.foreground": "#6b6363", 
         "editor.background": "#a3987a",
         "editor.foreground": "#212917",
         "notebook.cellEditorBackground": "#9B8C66",

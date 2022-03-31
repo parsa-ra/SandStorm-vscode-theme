@@ -22,9 +22,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - shell: bash
-        env: 
-          PAT: ${{ secrets.MS_ACCESS_TOKEN }}
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -34,6 +31,8 @@ jobs:
         run: npm install -g vsce
       
       - name: Package the extension
+        env: 
+          PAT: ${{ secrets.MS_ACCESS_TOKEN }}
         run: vsce package
         
       - name: Publish the extension

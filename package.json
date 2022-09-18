@@ -2,9 +2,10 @@
     "name": "theme-sandstorm",
     "displayName": "SandStorm Theme",
     "description": "SandStorm Theme",
-    "version": "0.3.5",
+    "version": "0.3.8",
     "publisher": "parano",
     "license": "MIT",
+    "icon": "images/icon.png",
     "engines": {
         "vscode": "^1.60.0"
     },
